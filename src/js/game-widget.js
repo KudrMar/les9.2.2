@@ -1,4 +1,4 @@
-class GameWidget {
+export default class GameWidget {
     constructor(element, size) {
         this._element = element;
         this.size = size
