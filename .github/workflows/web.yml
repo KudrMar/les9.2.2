@@ -1,7 +1,11 @@
 name: NodeJS with Webpack
 
-on: [push, pull_request]
-
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  
 permissions:
   checks: write
   contents: write
